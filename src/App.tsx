@@ -1,10 +1,10 @@
-import {Button} from './components/Button'
+import { Home } from './Pages/Home';
+
+import './assets/styles/global.scss';
 
 function App() {
   return (
-    <div>
-      <Button text="ops"/>
-    </div>
+   <Home />
   );
 }
 
